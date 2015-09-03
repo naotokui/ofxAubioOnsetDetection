@@ -59,7 +59,7 @@ bool ChromaOnset::processFrame(float* frame, const int& length){
 
 			for (int i = 0;i < 12;i++){
 				chromaValues.push_back(cgramPtr->rawChroma[i]/tmpMax);
-				quantisedChromaValues.push_back(cgramPtr->quantisedChromagram[i]);
+//				quantisedChromaValues.push_back(cgramPtr->quantisedChromagram[i]);
 			//	printf("chroma [%i] %f max %f quantised %i\n", i, cgramPtr->rawChroma[i], cgramPtr->chroma[i], cgramPtr->quantisedChromagram[i] );
 			}
 			chromaCalculated = true;

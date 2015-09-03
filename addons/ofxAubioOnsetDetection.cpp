@@ -339,7 +339,7 @@ void ofxAubioOnsetDetection::drawOutlineAndSetParams(const ofxWindowRegion& scre
 	//ofBackground(0);
 	setDrawParams(screenRegion);
 	ofSetColor(100,150,250);
-	screenRegion.drawOutline();
+//	screenRegion.drawOutline();
 }
 
 

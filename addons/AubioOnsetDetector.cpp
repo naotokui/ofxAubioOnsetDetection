@@ -8,7 +8,7 @@
  */
 
 #include "AubioOnsetDetector.h"
-
+#include <math.h>
 static bool printOnsetInfo = false;
 
 AubioOnsetDetector :: AubioOnsetDetector(){
