@@ -13,7 +13,7 @@
 
 #pragma once
 
-#define NUM_DETECTION_SAMPLES 1024
+#define NUM_DETECTION_SAMPLES 256
 #define TEXT_HEIGHT 16
 
 #include "ofMain.h"
