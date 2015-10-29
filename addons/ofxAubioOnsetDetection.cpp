@@ -269,11 +269,11 @@ void ofxAubioOnsetDetection::processFrame(float* frame, const int& n){
 			 c.millisTime = framesToMillis(frameCountIndex);
 			 c.onsetIndex = onsetIndex;
 			 */
-			chromaOnsetPtr = new ChromaOnset();
-			chromaOnsetPtr->frameTime = frameCountIndex;
-			chromaOnsetPtr->onsetIndex = onsetIndex;
-			chromaOnsetPtr->millisTime = framesToMillis(frameCountIndex);
-			chromaOnsets.push_back(*chromaOnsetPtr);
+//			chromaOnsetPtr = new ChromaOnset();
+//			chromaOnsetPtr->frameTime = frameCountIndex;
+//			chromaOnsetPtr->onsetIndex = onsetIndex;
+//			chromaOnsetPtr->millisTime = framesToMillis(frameCountIndex);
+//			chromaOnsets.push_back(*chromaOnsetPtr);
 			
 		//	printf("frame %i is time %f \n", frameCountIndex, framesToMillis(frameCountIndex));
 		}
