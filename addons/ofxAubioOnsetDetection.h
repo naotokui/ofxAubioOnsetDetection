@@ -8,12 +8,12 @@
  */
 
 
-#ifndef OFX_AUBDIO_ONSET_DETECTION_H_
+#ifndef OFX_AUBIO_ONSET_DETECTION_H_
 #define OFX_AUBIO_ONSET_DETECTION_H_
 
 #pragma once
 
-#define NUM_DETECTION_SAMPLES 256
+#define NUM_DETECTION_SAMPLES 128
 #define TEXT_HEIGHT 16
 
 #include "ofMain.h"
