@@ -33,7 +33,7 @@ ofxAubioOnsetDetection::ofxAubioOnsetDetection(){
 	
 	printf("ofxAubioOnsetDetector made\n");
 	
-	amplitudeNumber = 256;//number of amplitudes shown on screen
+	amplitudeNumber = NUM_DETECTION_SAMPLES;//number of amplitudes shown on screen
 	maximumAubioPitch = 220;//max pitch shown inside window
 	minimumAubioPitch = 55.0/2.0;
 	trackType = 0;
