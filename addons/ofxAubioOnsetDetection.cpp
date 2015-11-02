@@ -370,7 +370,7 @@ void ofxAubioOnsetDetection::drawOnsetDetection(int startIndex, int endIndex, co
 		}
 		
 		//onsetFunction[] also processed	but not shown - Brossier's?
-		bool fullInfo = false;
+		bool fullInfo = true;
 		int Xpos, previousXpos;
 		
 			ofSetColor(155);//,200,55);
