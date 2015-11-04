@@ -25,7 +25,7 @@ AubioOnsetDetector :: AubioOnsetDetector(){
 	
 	maximumDetectionValue = 10.0; 
 	resetValues();
-	thresholdRelativeToMedian = 1.1;
+	thresholdRelativeToMedian = 1.3;
 	cutoffForRepeatOnsetsMillis = 100;
 	medianSpeed = 15;
 	pos = 0;

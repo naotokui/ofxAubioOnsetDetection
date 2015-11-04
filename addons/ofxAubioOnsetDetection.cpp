@@ -405,13 +405,17 @@ void ofxAubioOnsetDetection::drawOnsetDetection(int startIndex, int endIndex, co
 		ofLine(previousXpos, screenRegion.y + screenRegion.height - (scale_factor*(highSlopeOnsetFunction[previousIndex]- minimumValue)), 
 			   Xpos,  screenRegion.y + screenRegion.height - (scale_factor*(highSlopeOnsetFunction[Xindex]- minimumValue)) );
 		
-		//bright blue - slope based onsets
-		if (highSlopeOnsetRecorded[Xindex] == true){
-			//ofSetColor(0,0,255);
-			ofCircle(Xpos, screenRegion.y + screenRegion.height - (scale_factor*(highSlopeOnsetFunction[Xindex]- minimumValue)) , 4);
-		}
-		
-		
+        if (highSlopeOnsetFunction[Xindex] == true){
+            ofSetColor(255,0,0);
+            ofCircle(Xpos, screenRegion.y + screenRegion.height - (scale_factor*(highSlopeOnsetFunction[Xindex]- minimumValue)) , 4);
+        }
+
+        if (aubioOnsetRecorded[Xindex] == true){
+            ofSetColor(255,255,255);
+            ofCircle(Xpos, screenRegion.y + screenRegion.height - (scale_factor*(highSlopeOnsetFunction[Xindex]- minimumValue)) , 4);
+        }
+
+        
 		
 		ofSetColor(255,100,0);
 		
